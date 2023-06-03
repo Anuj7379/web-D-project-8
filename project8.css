@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    background-color: #111827;
+    cursor: pointer;
+    
+}
+.hidden{
+    display: none;
+}
+main ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+ul li{
+    padding-left: 25px;
+    text-decoration: none;
+    
+}
+.upper-link{
+    background-color: #0000ff;
+    padding: 6px 10px 6px 10px;
+    border-radius: 25px;
+}
+.header{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hand:hover{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+div {
+    padding-left: 19px;
+    padding-right: 25px;
+}
+.hand{
+    height: 20px;
+    
+
+}
+.pc{
+    height: 220px;
+    margin-top: 10px;
+    
+}
+.name{
+    font-size:26px;
+    font-weight: 200;
+    margin-left: -19px;
+}
+nav div span{
+    color: rgb(152, 206, 81);
+
+}
+.our_projects{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section div h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+.driver {
+      height: 10px;
+      width: 120px;
+      display: flex;
+      background-color:blue;
+      margin-top: 4px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      border-radius: 10px;
+
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+section div img{
+    height: 150px;
+    width: 157px;
+}
+section div h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.cont{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line p{
+    height: 10px;
+    width: 120px;
+    
+    background-color:blue;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.socials{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding-bottom: 8px;
+
+}
+.down_photo{
+    height: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 1%;
+        padding: 0%;
+        
+        box-sizing: border-box;
+        background-color: #111827;
+        cursor: pointer;
+        
+    }
+    .hidden{
+        display:block ;
+        scale: 0.2;
+        margin-top: -90px;
+        margin-left: -400px;
+    }
+    .hand:hover{
+        cursor: pointer;
+    }
+    ul li{
+        display: none;
+    }
+    .prt2{
+        display: flex;
+       flex-direction: column;
+    }
+    .hand{
+        
+        display: block;
+        padding-left: 70px;
+    }
+    nav div{
+        text-align: center;
+    }
+    .name{
+        display: flex;
+    }
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
